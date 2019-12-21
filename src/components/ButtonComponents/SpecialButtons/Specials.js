@@ -11,7 +11,7 @@ import SpecialButton from '../SpecialButtons/SpecialButton';
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-const [specialsCalc] = useState;
+const [specialsCalc] = useState(specials);
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
