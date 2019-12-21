@@ -1,5 +1,9 @@
 import React from "react";
 
+import {specials} from '../../../data'
+
+const specialsCalc = specials;
+
 //import any components needed
 
 //Import your array data to from the provided data file

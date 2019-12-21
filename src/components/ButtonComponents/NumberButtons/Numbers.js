@@ -1,4 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
+
+import {numbers} from "../../../data"
+
+
+
+const [nums, setNums] = useState(numbers);
+
 
 //import any components needed
 // example of import from data.js. Note all the ../   This is how we move through folders. 
@@ -17,3 +24,6 @@ const Numbers = () => {
     </div>
   );
 };
+
+
+export default Numbers;
