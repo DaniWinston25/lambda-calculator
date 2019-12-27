@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const OperatorButton = (props) => {
+const OperatorButton = props => {
   return (
     <div>
       <button>{props.operators}</button>

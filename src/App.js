@@ -8,6 +8,7 @@ import Numbers from './components/ButtonComponents/NumberButtons/Numbers.js';
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
 import Specials from "./components/ButtonComponents/SpecialButtons/Specials.js";
+import Display from "./components/DisplayComponents/Display";
 
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
   return (
     <div className="container">
       <Logo />
+      <Display />
       
       <div className="App">
+       <Operators />
         <Numbers />
-      <Operators />
       <Specials />
       {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
